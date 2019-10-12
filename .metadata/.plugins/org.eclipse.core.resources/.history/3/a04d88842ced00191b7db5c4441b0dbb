@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="img/favicon.jpg" type="image/png">
+<title>Dikshali Margaj</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="vendors/linericon/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+<link rel="stylesheet" href="vendors/animate-css/animate.css">
+<link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+<!-- main css -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container box_1620">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img
+						src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset"
+						id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item active"><a class="nav-link"
+								href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link"
+								href="services.html">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html"
+								target="_blank">Download My Resume</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================Header Menu Area =================-->
+
+	<!--================Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="container box_1620">
+			<div class="banner_inner d-flex align-items-center">
+				<div class="banner_content">
+					<div class="media">
+						<div class="d-flex">
+							<img src="img/personal.jpg" alt="">
+						</div>
+						<div class="media-body">
+							<div class="personal_text">
+								<h6>Hello Everybody, i am</h6>
+								<h3>Dikshali Margaj</h3>
+								<h4>Software Development Intern</h4>
+								<ul class="list basic_info">
+									<li><a href="#"><i class="lnr lnr-calendar-full"></i>
+											19th June, 1993</a></li>
+									<li><a href="#"><i class="lnr lnr-phone-handset"></i>
+											+1 (980) 250 3277</a></li>
+									<li><a href="#"><i class="lnr lnr-envelope"></i>
+											dikshali.margaj@gmail.com</a></li>
+									<li><a href="#"><i class="lnr lnr-home"></i>
+											Charlotte, NC</a></li>
+								</ul>
+								<ul class="list personal_social">
+									<li><a href="#"><i class="fa fa-facebook">https://www.facebook.com/dikshali.margaj</i></a></li>
+									<li><a href="#"><i class="fa fa-github">https://github.com/Dikshali</i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin">https://www.linkedin.com/in/dikshali-margaj/</i></a></li>
+									<li><a href="#"><i class="fa fa-skype">dikshali_margaj</i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+	<!--================Welcome Area =================-->
+	<section id="about" class="welcome_area p_120">
+		<div class="container">
+			<div class="row welcome_inner">
+				<div class="col-lg-6">
+					<div class="welcome_text">
+						<h4>About Myself</h4>
+						<p>
+							I'm a Graduate student at University of North Carolina at
+							Charlotte. I have interned as a <b>Software Developer</b> at <b>TimeTap</b>
+							and have worked as a Software Engineer at Tata Group for 3 years,
+							focusing mainly on <b>Full-stack Development</b>.
+						</p>
+						<p>Specifically, I have developed applications using Java,
+							Android, Node.js, Express.js, AngularJS, HTML5, CSS3 and
+							Javascript. I also have the experience of leading a team during
+							my tenure at TCS. I have worked on MongoDB, Firebase, Google
+							API's, PostgreSQL, SQL Server and MySQL database technologies. I
+							have explored Google Firebase and AWS Cloud Platforms through
+							academic projects. I have developed Restful API's and a messaging
+							application using Java, Android and Node.js</p>
+						<p>I have worked as an Android developer at TimeTap by
+							building an android version of the web application and improving
+							the rating to 2.8 in Play Store. As a developer at Tata Group,
+							one of the largest IT firms in the world, I had the opportunity
+							to work on different software projects in various capacities. I
+							was a part of the team which developed a system to track and
+							manage different projects that are part of TCS over the world,
+							and monitor the revenue generated from it.</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="tools_expert">
+						<div class="skill_main">
+							<div class="skill_item">
+							<a href="">
+								<h4>
+									Work Experience 
+									<span><span class="counter">3.5</span>+</span> years
+								</h4>
+							</a>
+							</div>
+							<div class="skill_item">
+								<h4>
+									Skills 
+									<span><span class="counter">20</span>+</span>
+								</h4>
+							</div>
+							<div class="skill_item">
+								<h4>
+									Projects 
+									<span><span class="counter">15</span>+</span>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Welcome Area =================-->
+
+	<!--================My Tabs Area =================-->
+	<section class="mytabs_area p_120">
+		<div class="container">
+			<div class="tabs_inner">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item"><a class="nav-link active" id="home-tab"
+						data-toggle="tab" href="#home" role="tab" aria-controls="home"
+						aria-selected="true">My Experiences</a></li>
+					<li class="nav-item"><a class="nav-link" id="profile-tab"
+						data-toggle="tab" href="#profile" role="tab"
+						aria-controls="profile" aria-selected="false">My Education</a></li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel"
+						aria-labelledby="home-tab">
+						<ul class="list">
+							<li><span></span>
+								<div class="media">
+									<div class="d-flex">
+										<p>July 2019 to present</p>
+									</div>
+									<div class="media-body">
+										<h4>TimeTap</h4>
+										<p>
+											Software Development Intern <br />Charlotte, North Carolina
+										</p>
+									</div>
+								</div></li>
+							<li><span></span>
+								<div class="media">
+									<div class="d-flex">
+										<p>August 2015 to June 2018</p>
+									</div>
+									<div class="media-body">
+										<h4>Tata Consultancy Services</h4>
+										<p>
+											Software Engineer <br />Mumbai, India
+										</p>
+									</div>
+								</div></li>
+							<li><span></span>
+								<div class="media">
+									<div class="d-flex">
+										<p>July 2014 to April 2015</p>
+									</div>
+									<div class="media-body">
+										<h4>Bhabha Atomic Research Center</h4>
+										<p>
+											Software Intern <br />Mumbai, India
+										</p>
+									</div>
+								</div></li>
+						</ul>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel"
+						aria-labelledby="profile-tab">
+						<ul class="list">
+							<li><span></span>
+								<div class="media">
+									<div class="d-flex">
+										<p>August 2018 to May 2020</p>
+									</div>
+									<div class="media-body">
+										<h4>University of North Carolina at Charlotte</h4>
+										<p>
+											Master of Science in Computer Science <br />Charlotte, NC
+										</p>
+									</div>
+								</div></li>
+							<li><span></span>
+								<div class="media">
+									<div class="d-flex">
+										<p>August 2011 to May 2015</p>
+									</div>
+									<div class="media-body">
+										<h4>Mumbai University</h4>
+										<p>
+											Bachelors of Engineering in Information Technology <br />Mumbai,
+											India
+										</p>
+									</div>
+								</div></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End My Tabs Area =================-->
+
+	<!--================Home Gallery Area =================-->
+	<section class="home_gallery_area p_120">
+		<div class="container">
+			<div class="main_title">
+				<h2>Projects</h2>
+				<p>Who are in extremely love with eco friendly system.</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="gallery_f_inner row imageGallery1">
+				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
+							<a class="light" href="img/gallery/project-1.jpg"><img
+								src="img/gallery/icon.png" alt=""></a>
+						</div>
+						<div class="g_item_text">
+							<h4>3D Helmet Design</h4>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-2.jpg" alt="">
+							<a class="light" href="img/gallery/project-2.jpg"><img
+								src="img/gallery/icon.png" alt=""></a>
+						</div>
+						<div class="g_item_text">
+							<h4>2D Vinyl Design</h4>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-3.jpg" alt="">
+							<a class="light" href="img/gallery/project-3.jpg"><img
+								src="img/gallery/icon.png" alt=""></a>
+						</div>
+						<div class="g_item_text">
+							<h4>Creative Poster Design</h4>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
+							<a class="light" href="img/gallery/project-4.jpg"><img
+								src="img/gallery/icon.png" alt=""></a>
+						</div>
+						<div class="g_item_text">
+							<h4>Embosed Logo Design</h4>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-5.jpg" alt="">
+							<a class="light" href="img/gallery/project-5.jpg"><img
+								src="img/gallery/icon.png" alt=""></a>
+						</div>
+						<div class="g_item_text">
+							<h4>3D Disposable Bottle</h4>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 brand creative">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-6.jpg" alt="">
+							<a class="light" href="img/gallery/project-6.jpg"><img
+								src="img/gallery/icon.png" alt=""></a>
+						</div>
+						<div class="g_item_text">
+							<h4>3D Logo Design</h4>
+							<p>Client Project</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Gallery Area =================-->
+
+	<!--================Footer Area =================-->
+	<footer class="footer_area">
+		<div class="container">
+			<div class="row footer_inner">
+				<div class="col-sm-6">
+					<aside class="f_widget social_widget">
+						<div class="f_title">
+							<h3>Follow Me</h3>
+						</div>
+						<p>Let us be social</p>
+						<ul class="list">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-sm-6">
+					<aside class="f_widget ab_widget">
+						<p>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							All rights reserved | This template is made with <i
+								class="fa fa-heart-o" aria-hidden="true"></i> by <a
+								href="https://colorlib.com" target="_blank">Colorlib</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</aside>
+				</div>
+
+				<!-- <div class="col-sm-6">
+        				<aside class="f_widget social_widget">
+        					<div class="f_title">
+        						<h3>Follow Me</h3>
+        					</div>
+        					<p>Let us be social</p>
+        					<ul class="list">
+        						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+        					</ul>
+        				</aside>
+        			</div> -->
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope.pkgd.min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+</html>

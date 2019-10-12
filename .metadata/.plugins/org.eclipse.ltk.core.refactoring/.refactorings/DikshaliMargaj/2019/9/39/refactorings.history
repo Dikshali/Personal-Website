@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DikshaliMargaj/img/fav.jpg&apos; to &apos;favicon.jpg&apos;" description="Rename resource &apos;fav.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="img/fav.jpg" name="favicon.jpg" stamp="1569525979085" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DikshaliMargaj/img/logo.png&apos; to &apos;logo1.png&apos;" description="Rename resource &apos;logo.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="img/logo.png" name="logo1.png" stamp="1569526017940" updateReferences="true"/>
+</session>
