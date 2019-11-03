@@ -83,7 +83,9 @@
 
 
 /*============== contact_area css ================*/
-.contact_area{}
+.contact_area{
+	background: #f7f7f7;
+}
 .mapBox{
     height: 420px;
     margin-bottom: 80px;
@@ -119,6 +121,9 @@
         }
     }
 }
+.contact_title{
+	color: #766dff;
+}
 .contact_form{
     .form-group{
         margin-bottom: 10px;
@@ -126,9 +131,9 @@
             font-size: 13px;
             line-height: 26px;
             color: #999;
-            border: 1px solid #eeeeee;
+            //border: 1px solid #ffffff;
             font-family: $rob;
-            border-radius: 0px;
+            border-radius: 10px;
             padding-left: 20px;
             &:focus{
                 box-shadow: none;

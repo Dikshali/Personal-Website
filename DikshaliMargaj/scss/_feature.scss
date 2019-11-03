@@ -56,10 +56,18 @@
 }
 
 .tools_expert{
-	padding: 60px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 	.skill_main{
+		.skill_width{
+			width:33.33%;
+		}
+		.fa-gradient{
+				background: #f8b600;
+				//-webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%)
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
 		.skill_item{
-			margin-bottom: 18px;
 			&:last-child{
 				margin-bottom: 0px;
 			}
@@ -72,7 +80,7 @@
 				margin-bottom: 15px;
 				
 				span{
-					font-size: 65px;
+					font-size: 45px;
 					color: #f8b600;
 				}
 			}

@@ -78,8 +78,12 @@ button:focus {
   padding-left: 0px;
   padding-right: 0px; }
 
+.p_70 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
 .p_120 {
-  padding-top: 120px;
+  padding-top: 110px;
   padding-bottom: 120px; }
 
 .p_100 {
@@ -240,6 +244,9 @@ button:focus {
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
       line-height: 70px; }
+
+.contact_area {
+  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
 
 .top_menu {
   background: #f9f9ff; }
@@ -1075,6 +1082,9 @@ button:focus {
 /* End Reservation Form Area css
 ============================================================================================ */
 /*============== contact_area css ================*/
+.contact_area {
+  background: #f7f7f7; }
+
 .mapBox {
   height: 420px;
   margin-bottom: 80px; }
@@ -1104,15 +1114,17 @@ button:focus {
     line-height: 24px;
     padding: 2px 0px; }
 
+.contact_title {
+  color: #766dff; }
+
 .contact_form .form-group {
   margin-bottom: 10px; }
   .contact_form .form-group .form-control {
     font-size: 13px;
     line-height: 26px;
     color: #999;
-    border: 1px solid #eeeeee;
     font-family: "Roboto", sans-serif;
-    border-radius: 0px;
+    border-radius: 10px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
       box-shadow: none;
@@ -2516,39 +2528,43 @@ h6 {
     margin-bottom: 0px; }
 
 .tools_expert {
-  padding: 60px 0px 0px 0px; }
-  .tools_expert .skill_main .skill_item {
-    margin-bottom: 18px; }
-    .tools_expert .skill_main .skill_item:last-child {
-      margin-bottom: 0px; }
-    .tools_expert .skill_main .skill_item h4 {
-      text-align: center;
-      font-size: 36px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      color: #222222;
-      margin-bottom: 15px; }
-      .tools_expert .skill_main .skill_item h4 span {
-        font-size: 65px;
-        color: #f8b600; }
-    .tools_expert .skill_main .skill_item .progress_br {
-      border: 1px solid #eeeeee;
-      padding: 5px;
-      border-radius: 10px; }
-    .tools_expert .skill_main .skill_item .progress {
+  padding: 10px 0px 0px 0px; }
+  .tools_expert .skill_main .skill_width {
+    width: 33.33%; }
+  .tools_expert .skill_main .fa-gradient {
+    background: #f8b600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .tools_expert .skill_main .skill_item:last-child {
+    margin-bottom: 0px; }
+  .tools_expert .skill_main .skill_item h4 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 15px; }
+    .tools_expert .skill_main .skill_item h4 span {
+      font-size: 45px;
+      color: #f8b600; }
+  .tools_expert .skill_main .skill_item .progress_br {
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    border-radius: 10px; }
+  .tools_expert .skill_main .skill_item .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #e8e8e8; }
+    .tools_expert .skill_main .skill_item .progress .progress-bar {
+      width: 0%;
+      transition: width .6s ease;
       height: 10px;
-      border-radius: 10px;
-      background: #e8e8e8; }
-      .tools_expert .skill_main .skill_item .progress .progress-bar {
-        width: 0%;
-        transition: width .6s ease;
-        height: 10px;
-        border-radius: 5px;
-        vertical-align: middle;
-        align-self: center;
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+      border-radius: 5px;
+      vertical-align: middle;
+      align-self: center;
+      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
 
 /* End Welcome Area css
 ============================================================================================ */
@@ -2805,16 +2821,15 @@ h6 {
     position: relative;
     text-align: center;
     overflow: hidden;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black; }
     .h_gallery_item .g_img_item:before {
-      content: "";
       width: 100%;
       height: 100%;
       left: 0px;
       top: 0px;
-      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+      background: #f5f5f5;
       position: absolute;
       opacity: 0;
       transition: all 300ms ease; }
@@ -2822,6 +2837,7 @@ h6 {
       position: absolute;
       left: 0px;
       top: 50%;
+      color: #000;
       transform: translateY(-50%);
       width: 100%;
       text-align: center;
@@ -2836,6 +2852,7 @@ h6 {
     .h_gallery_item .g_item_text p {
       margin-bottom: 0px; }
   .h_gallery_item:hover .g_img_item:before {
+    background: #f5f5f5;
     opacity: .85; }
   .h_gallery_item:hover .g_img_item .light {
     opacity: 1; }
@@ -2911,13 +2928,15 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   font-family: "Heebo", sans-serif;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  padding-top: 10px; }
 
 .ab_widget p {
   font-size: 11px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
-  color: #777777; }
+  color: #777777;
+  padding-top: 20px; }
   .ab_widget p a {
     color: #766dff; }
   .ab_widget p + p {
