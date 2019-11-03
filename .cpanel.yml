@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pdl04ed7x502/repositories/Personal-Website/DikshaliMargaj/
-    - /bin/cp * $DEPLOYPATH
+    - export DEPLOYPATH=/home/pdl04ed7x502/repositories/Personal-Website/
+    - /bin/cp -R DikshaliMargaj $DEPLOYPATH
