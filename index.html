@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
 <!-- main css -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/timeline.css">
 <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -194,74 +195,89 @@
 				<div class="tab-content" id="myTabContent">
 					<div class="tab-pane fade show active" id="home" role="tabpanel"
 						aria-labelledby="home-tab">
-						<ul class="list">
-							<li><span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>July 2019 to present</p>
-									</div>
-									<div class="media-body">
-										<h4>TimeTap</h4>
-										<p>
-											Software Development Intern <br />Charlotte, North Carolina
-										</p>
-									</div>
-								</div></li>
-							<li><span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>August 2015 to June 2018</p>
-									</div>
-									<div class="media-body">
-										<h4>Tata Consultancy Services</h4>
-										<p>
-											Software Engineer <br />Mumbai, India
-										</p>
-									</div>
-								</div></li>
-							<li><span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>July 2014 to April 2015</p>
-									</div>
-									<div class="media-body">
-										<h4>Bhabha Atomic Research Center</h4>
-										<p>
-											Software Intern <br />Mumbai, India
-										</p>
-									</div>
-								</div></li>
-						</ul>
+						<div class="timeline">
+						  <div class="tcontainer tleft" data-toggle="collapse" data-target="#showIntern">
+							<div class="tcontent">
+							  <h3>TimeTap</h3>
+							  <h4>July 2019 to present</h4>
+							  <h5>Software Development Intern, Charlotte, North Carolina</h5>
+							  <ul>
+							  <li class="work-description">
+							  Worked as a backend developer to build Time Scheduling Software using Java 8, Spring MVC and AWS. This program allows businesses to manage appointments and create personalize custom booking site for their clients.<div id="internreadmore" onclick="show('internreadless','internreadmore')" class="internreadmore pointer">Read More...</div>
+							  </li>
+							  <li id="showIntern" class="work-description collapse">
+							  Created RESTful API services for functionality like custom fields to get more client details in Java and Spring MVC.
+							  </li>
+							  <li id="showIntern" class="work-description collapse">
+							  Developed functionalities like create appointment for Backoffice in Android (Java) application, thus bringing up the rating to 2.8 in play store with more than 1000 downloads.
+							  <div id="internreadless" onclick="show('internreadmore','internreadless')" class="internreadless pointer">Read Less...</div>
+							  </li>
+							  </ul>
+							</div>
+						  </div>
+						  <div class="tcontainer tright" data-toggle="collapse" data-target="#showTCS">
+							<div class="tcontent">
+							  <h3>Tata Consultancy Services</h3>
+							  <h4>August 2015 to June 2018</h4>
+							  <h5>Software Engineer, Mumbai, India</h5>
+							  <ul>
+							  <li class="work-description">
+							  Developed a full stack application for sales team of the company using HTML5, CSS 3, AngularJS-1, Java 8, Maven 3, Spring MVC Framework and PostgreSQL with Agile methodology. The program enabled sales user to log the opportunities and offerings for the company and monitor the revenue generated from it.<div id="tcsreadmore" onclick="show('tcsreadless','tcsreadmore')" class="tcsreadmore pointer">Read More...</div>
+							  </li>
+							  <li id="showTCS" class="work-description collapse">
+							  Managed local team for creating and consuming RESTful API services for functionality like search, mail notification, file upload and download, etc. in Java, Spring MVC which amplified satisfactory index of application by 30%.
+							  </li>
+							  <li id="showTCS" class="work-description collapse">
+							 Optimized load time from 6s to 1s by minimizing HTTP requests, implementing CSS sprites, applying gzip compression at the server, minifying the JavaScript and CSS reference files and loading the JavaScript & CSS files asynchronously.
+							  </li>
+							  <li id="showTCS" class="work-description collapse">
+							 Implemented test suites using JUnit Test Case classes to test each module and inspect the business logic. Performed security checks through Checkmarx and SonarQube on DEV and UAT environments to resolve security glitches and to improve code quality.
+							  </li>
+							  <li id="showTCS" class="work-description collapse">
+							 Awarded as “Best Team” in July 2017 for continuous defect free delivery of the software.
+							 <div id="tcsreadless" onclick="show('tcsreadmore','tcsreadless')" class="tcsreadless pointer">Read Less...</div>
+							  </li>
+							  </ul>
+							</div>
+						  </div>
+						  <div class="tcontainer tleft" data-toggle="collapse" data-target="#showBARC">
+							<div class="tcontent">
+							  <h3>Bhabha Atomic Research Center (BARC)</h3>
+							  <h4>July 2014 to April 2015</h4>
+							  <h5>Software Intern, Mumbai, India</h5>
+							  <ul>
+							  <li class="work-description">
+							  Designed a Simulator for Advance Heavy Water Reactor to detect signals from the self-powered neutron detector (SPND) and modeled a corresponding 3D Flux map. This software helped client achieve and monitor the results of the actual reactor.<div id="barcreadmore" onclick="show('barcreadless','barcreadmore')" class="barcreadmore pointer">Read More...</div>
+							  </li>
+							  <li id="showBARC" class="work-description collapse">
+							  Performed requirement gathering and feasibility analysis by interacting with clients and accordingly built simulator in Borland C++ Builder. Tested functionality manually to inspect the correct functionality and validate against the desired output.<div id="barcreadless" onclick="show('barcreadmore','barcreadless')" class="barcreadless pointer">Read Less...</div>
+							  </li>
+							  </ul>
+							</div>
+						  </div>
+						  
+						</div>
 					</div>
 					<div class="tab-pane fade" id="profile" role="tabpanel"
 						aria-labelledby="profile-tab">
-						<ul class="list">
-							<li><span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>August 2018 to May 2020</p>
-									</div>
-									<div class="media-body">
-										<h4>University of North Carolina at Charlotte</h4>
-										<p>
-											Master of Science in Computer Science <br />Charlotte, NC
-										</p>
-									</div>
-								</div></li>
-							<li><span></span>
-								<div class="media">
-									<div class="d-flex">
-										<p>August 2011 to May 2015</p>
-									</div>
-									<div class="media-body">
-										<h4>Mumbai University</h4>
-										<p>
-											Bachelors of Engineering in Information Technology <br />Mumbai,
-											India
-										</p>
-									</div>
-								</div></li>
-						</ul>
+						<div class="timeline">
+						  <div class="tcontainer tleft" data-toggle="collapse" data-target="#showIntern">
+							<div class="tcontent">
+							  <h3>University of North Carolina at Charlotte</h3>
+							  <h4>August 2018 to May 2020</h4>
+							  <h5>Master of Science in Computer Science <br />Charlotte, NC</h5>
+							  
+							</div>
+						  </div>
+						  <div class="tcontainer tright" data-toggle="collapse" data-target="#showTCS">
+							<div class="tcontent">
+							  <h3>Mumbai University</h3>
+							  <h4>August 2011 to May 2015</h4>
+							  <h5>Bachelors of Engineering in Information Technology <br />Mumbai,
+											India</h5>
+							</div>
+						  </div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -278,14 +294,26 @@
 		</div>
 		<div class="container">
 			<div class="gallery_f_inner row imageGallery1">
+			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-8.jpg" alt="">
+							<a class="light" href="https://github.com/Dikshali/Smart-Bluetooth-Low-Energy-Bulb" target="_blank"><div class="fab fa-github fa-3x"></div></a>
+						</div>
+						<div class="g_item_text">
+							<a href="https://github.com/Dikshali/Smart-Bluetooth-Low-Energy-Bulb" target="_blank"><h4>Smart BLE Bulb&nbsp;<i class="fab fa-github"></i></h4></a>
+							<p>The app enables user to communicate with a smart BLE bulb that is also capable of beeping and measuring temperature.</p>
+						</div>
+					</div>
+				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
 					<div class="h_gallery_item">
 						<div class="g_img_item">
 							<img class="img-fluid" src="img/gallery/project-5.jpg" alt="">
-							<a class="light" href="https://github.com/Dikshali/Smart-Bluetooth-Market-Place"><div class="fab fa-github fa-3x"></div></a>
+							<a class="light" href="https://github.com/Dikshali/Smart-Bluetooth-Market-Place" target="_blank"><div class="fab fa-github fa-3x"></div></a>
 						</div>
 						<div class="g_item_text">
-							<a href="https://github.com/Dikshali/Smart-Bluetooth-Market-Place"><h4>Smart Bluetooth Market Place&nbsp;<i class="fab fa-github"></i></h4></a>
+							<a href="https://github.com/Dikshali/Smart-Bluetooth-Market-Place" target="_blank"><h4>Smart Bluetooth Market Place&nbsp;<i class="fab fa-github"></i></h4></a>
 							<p>The app allows user to view discounted items of products for the aisle closest to the user.</p>
 						</div>
 					</div>
@@ -295,10 +323,10 @@
 					<div class="h_gallery_item">
 						<div class="g_img_item">
 							<img class="img-fluid" src="img/gallery/project-3.jpg" alt="">
-							<a class="light" href="https://github.com/Dikshali/The-Chat-Rooms/wiki"><div class="fab fa-github fa-3x"></div></a>
+							<a class="light" href="https://github.com/Dikshali/The-Chat-Rooms" target="_blank"><div class="fab fa-github fa-3x"></div></a>
 						</div>
 						<div class="g_item_text">
-							<a href="https://github.com/Dikshali/The-Chat-Rooms/wiki"><h4>Chat Room Application&nbsp;<i class="fab fa-github"></i></h4></a>
+							<a href="https://github.com/Dikshali/The-Chat-Rooms" target="_blank"><h4>Chat Room Application&nbsp;<i class="fab fa-github"></i></h4></a>
 							<p>This app is a simple chat application, where a user can request from all users in a group to provide him with a ride.</p>
 						</div>
 					</div>
@@ -307,10 +335,10 @@
 					<div class="h_gallery_item">
 						<div class="g_img_item">
 							<img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
-							<a class="light" href="https://github.com/Dikshali/E-Commerce-Payment-Gateway"><div class="fab fa-github fa-3x"></div></a>
+							<a class="light" href="https://github.com/Dikshali/E-Commerce-Payment-Gateway" target="_blank"><div class="fab fa-github fa-3x"></div></a>
 						</div>
 						<div class="g_item_text">
-							<a href="https://github.com/Dikshali/E-Commerce-Payment-Gateway"><h4>E-commerce App&nbsp;<i class="fab fa-github"></i></h4></a>
+							<a href="https://github.com/Dikshali/E-Commerce-Payment-Gateway" target="_blank"><h4>E-commerce App&nbsp;<i class="fab fa-github"></i></h4></a>
 							<p>This is a shopping cart application. It enables user to purchase items and pay for their order.</p>
 						</div>
 					</div>
@@ -318,11 +346,23 @@
 				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 					<div class="h_gallery_item">
 						<div class="g_img_item">
-							<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
-							<a class="light" href="https://github.com/Dikshali/Christmas-Gift-List-App"><div class="fab fa-github fa-3x"></div></a>
+							<img class="img-fluid" src="img/gallery/project-7.jpg" alt="">
+							<a class="light" href="https://github.com/Dikshali/Network-Based-Application-Development" target="_blank"><div class="fab fa-github fa-3x"></div></a>
 						</div>
 						<div class="g_item_text">
-							<a href="https://github.com/Dikshali/Christmas-Gift-List-App"><h4>Christmas Gift List Application&nbsp;<i class="fab fa-github"></i></h4></a>
+							<a href="https://github.com/Dikshali/Network-Based-Application-Development" target="_blank"><h4>Destination Anywhere Web Application&nbsp;<i class="fab fa-github"></i></h4></a>
+							<p>A web application designed to help user plan a perfect holiday. It provides information on various tourist attractions around the world.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+					<div class="h_gallery_item">
+						<div class="g_img_item">
+							<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
+							<a class="light" href="https://github.com/Dikshali/Christmas-Gift-List-App" target="_blank"><div class="fab fa-github fa-3x"></div></a>
+						</div>
+						<div class="g_item_text">
+							<a href="https://github.com/Dikshali/Christmas-Gift-List-App" target="_blank"><h4>Christmas Gift List Application&nbsp;<i class="fab fa-github"></i></h4></a>
 							<p>The App enables tracking Christmas gift purchasing by quickly enetring them into the app.</p>
 						</div>
 					</div>
@@ -331,10 +371,10 @@
 					<div class="h_gallery_item">
 						<div class="g_img_item">
 							<img class="img-fluid" src="img/gallery/project-2.jpg" alt="">
-							<a class="light" href="https://github.com/Dikshali/Package-Tracking-System"><div class="fab fa-github fa-3x"></div></a>
+							<a class="light" href="https://github.com/Dikshali/Package-Tracking-System" target="_blank"><div class="fab fa-github fa-3x"></div></a>
 						</div>
 						<div class="g_item_text">
-							<a href="https://github.com/Dikshali/Package-Tracking-System"><h4>Package Tracking System&nbsp;<i class="fab fa-github"></i></h4></a>
+							<a href="https://github.com/Dikshali/Package-Tracking-System" target="_blank"><h4>Package Tracking System&nbsp;<i class="fab fa-github"></i></h4></a>
 							<p>The System allows user to create and track a package.</p>
 						</div>
 					</div>
@@ -344,10 +384,10 @@
 					<div class="h_gallery_item">
 						<div class="g_img_item">
 							<img class="img-fluid" src="img/gallery/project-6.jpg" alt="">
-							<a class="light" href="https://github.com/Dikshali/Customer-Retention-Predictive-model"><div class="fab fa-github fa-3x"></div></a>
+							<a class="light" href="https://github.com/Dikshali/Customer-Retention-Predictive-model" target="_blank"><div class="fab fa-github fa-3x"></div></a>
 						</div>
 						<div class="g_item_text">
-							<a href="https://github.com/Dikshali/Customer-Retention-Predictive-model"><h4>Customer Retention Prediction using Machine Learning&nbsp;<i class="fab fa-github"></i></h4></a>
+							<a href="https://github.com/Dikshali/Customer-Retention-Predictive-model" target="_blank"><h4>Customer Retention Prediction using Machine Learning&nbsp;<i class="fab fa-github"></i></h4></a>
 							<p>This programs find the pattern which causes customer churn and forecast it to obtain a prognosis on which factors impact customer retention.</p>
 						</div>
 					</div>
@@ -401,6 +441,38 @@
             </div>
         </section>
         <!--================Contact Area =================-->
+		
+		<!--================Contact Success and Error message Area =================-->
+        <div id="success" class="modal modal-message fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <h2>Thank you</h2>
+                        <p>Your message is successfully sent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals error -->
+
+        <div id="error" class="modal modal-message fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fa fa-close"></i>
+                        </button>
+                        <h2>Sorry !</h2>
+                        <p> Something went wrong. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================End Contact Success and Error message Area =================-->
 	<!--================Footer Area =================-->
 	<footer class="footer_area">
 		<div class="container">
@@ -461,6 +533,10 @@
 	<script src="js/mail-script.js"></script>
 	<script src="js/theme.js"></script>
 	<script src="https://kit.fontawesome.com/23ff81c34a.js" crossorigin="anonymous"></script>
+	<!-- contact js -->
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/contact.js"></script>
 	
 </body>
 </html>

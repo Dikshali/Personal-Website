@@ -54,3 +54,8 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #666 }";
   document.body.appendChild(css);
 };
+
+var show = function(id1, id2){
+	document.getElementById(id1).style.display='block';
+	document.getElementById(id2).style.display='none';
+};
