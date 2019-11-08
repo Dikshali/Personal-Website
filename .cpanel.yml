@@ -2,5 +2,12 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/pdl04ed7x502/public_html/
-        - /bin/cp * $DEPLOYPATH
-        - /bin/cp -R * $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp -R contact_process.php $DEPLOYPATH
+        - /bin/cp -R img $DEPLOYPATH
+        - /bin/cp -R js $DEPLOYPATH
+        - /bin/cp -R fonts $DEPLOYPATH
+        - /bin/cp -R css $DEPLOYPATH
+        - /bin/cp -R resume $DEPLOYPATH
+        - /bin/cp -R scss $DEPLOYPATH
+        - /bin/cp -R vendors $DEPLOYPATH
